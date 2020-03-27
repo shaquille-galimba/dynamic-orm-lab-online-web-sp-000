@@ -49,6 +49,6 @@ class InteractiveRecord
   end
 
   def find_by(hash)
-    
+
   end
 end
