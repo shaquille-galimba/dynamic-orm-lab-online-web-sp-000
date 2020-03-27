@@ -22,4 +22,8 @@ class InteractiveRecord
       self.send("#{key}=", value)
     end
   end
+
+  def table_names_for_insert
+    self.class.table_name
+  end
 end
